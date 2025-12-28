@@ -14,14 +14,14 @@
     }
     html,body{height:100%;margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,'Noto Naskh Arabic', 'Helvetica Neue', Arial;}
     .wrapper{max-width:var(--container-width);margin:28px auto;padding:28px;border-radius:12px;box-shadow:0 6px 24px rgba(16,24,40,0.06);background:#fff;}
-    h1{margin:0 0 8px 0;font-size:22px; color: var(--accent);}
+    h1{margin:0 0 8px 0;font-size:22px;color:var(--accent);}
     .meta{color:var(--muted);font-size:13px;margin-bottom:18px;}
     section{margin-top:18px; border-bottom: 1px solid #f1f5f9; padding-bottom: 10px;}
     h2{font-size:16px;margin:8px 0 10px 0;color:var(--accent);}
     p, ul{line-height:1.65;color:var(--fg);}
     ul{padding-inline-start:1.1rem;margin:6px 0;}
     li{margin:6px 0;}
-    .important-box {background: #fffbeb; border-right: 4px solid #f59e0b; padding: 15px; border-radius: 6px; margin: 15px 0;}
+    .important-box {background: #f0f7ff; border-right: 4px solid var(--accent); padding: 15px; border-radius: 6px; margin: 15px 0;}
     .contact{background:#f8fafc;border-right:4px solid var(--accent);padding:12px;border-radius:6px;margin-top:12px;}
     a.mail{color:var(--accent);text-decoration:none;font-weight:600;}
     .small{color:var(--muted);font-size:13px;margin-top:14px;}
@@ -30,58 +30,49 @@
 <body>
   <div class="wrapper">
     <h1>سياسة الخصوصية — تطبيق إنجاز (ENJAZ)</h1>
-    <div class="meta">تاريخ التحديث الأخير: 28 ديسمبر 2023</div>
+    <div class="meta">تاريخ التحديث: 28 ديسمبر 2023</div>
 
     <section>
-      <h2>1. مقدمة</h2>
+      <h2>مقدمة</h2>
       <p>
-        يلتزم تطبيق <strong>إنجاز (ENJAZ)</strong> بحماية خصوصية مستخدميه. توضح هذه السياسة كيفية تعاملنا مع البيانات عند استخدام ميزات النسخ الاحتياطي عبر Google Drive ونظام تفعيل النسخة الكاملة.
+        ترشدك هذه السياسة حول كيفية جمعنا واستخدامنا وحماية البيانات في تطبيق <strong>إنجاز (ENJAZ)</strong> لإدارة الحسابات الشخصية. نحن نلتزم بحماية خصوصيتك وضمان شفافية التعامل مع بياناتك، خاصة عند استخدام خدمات جوجل.
       </p>
     </section>
 
     <section class="important-box">
-      <h2>2. بيانات خدمات جوجل (Google User Data)</h2>
-      <p>يطلب التطبيق الوصول إلى حساب جوجل الخاص بك للأغراض التالية فقط:</p>
+      <h2>التعامل مع بيانات مستخدم جوجل (Google User Data)</h2>
+      <p>عند تفعيل ميزة النسخ الاحتياطي، يطلب تطبيق <strong>ENJAZ</strong> الوصول إلى مساحة التخزين الخاصة بك على <strong>Google Drive</strong>:</p>
       <ul>
-        <li><strong>Google Drive API:</strong> نستخدم نطاق الوصول <code>drive.file</code> لإنشاء مجلد خاص بالنسخ الاحتياطي ورفع ملفات قواعد البيانات الخاصة بك. لا يقوم التطبيق بالوصول إلى أي ملفات أخرى في حسابك ليس له علاقة بها.</li>
-        <li><strong>استخدام البيانات:</strong> يتم استخدام هذه البيانات فقط لتمكينك من "نسخ" و"استعادة" بياناتك المالية عند تغيير الجهاز أو إعادة تثبيت التطبيق.</li>
-        <li><strong>مشاركة البيانات:</strong> نحن لا نشارك، ولا نبيع، ولا ننقل أي بيانات يتم الحصول عليها من جوجل إلى أي أطراف ثالثة أو خوادم خارجية. كل شيء يتم بين جهازك ومساحتك الخاصة على Google Drive.</li>
+        <li><strong>ماذا نصل إليه:</strong> نستخدم نطاق الوصول (<code>drive.file</code>) لإنشاء مجلد خاص بالتطبيق ورفع/تحميل ملفات النسخ الاحتياطي التي تنشئها أنت فقط.</li>
+        <li><strong>الغرض:</strong> تمكينك من استعادة بياناتك المالية عند تغيير الجهاز أو إعادة تثبيت التطبيق.</li>
+        <li><strong>الخصوصية:</strong> لا يقوم التطبيق بالوصول إلى أي ملفات أخرى في حسابك، ولا نقوم بنقل أو مشاركة أو بيع بياناتك المستمدة من جوجل إلى أي طرف ثالث.</li>
+        <li><strong>الالتزام:</strong> يلتزم التطبيق بسياسة بيانات المستخدم المحدودة (Google Limited Use Requirements).</li>
       </ul>
     </section>
 
     <section>
-      <h2>3. تفعيل النسخة الكاملة ومعرفات الجهاز</h2>
-      <p>لتوفير نظام تفعيل آمن ومنع إساءة استخدام التراخيص، نقوم بجمع:</p>
+      <h2>البيانات التي نقوم بجمعها محلياً</h2>
       <ul>
-        <li><strong>معرف الجهاز (Device ID):</strong> نستخدم معرفاً فريداً لجهازك لربط كود التفعيل بجهاز واحد فقط.</li>
-        <li><strong>رقم الهاتف (اختياري):</strong> قد يطلب التطبيق رقم الهاتف لربط ترخيصك بحسابك الشخصي لضمان استعادة ميزاتك المدفوعة لاحقاً.</li>
+        <li><strong>البيانات المالية:</strong> سجلات الحسابات والمعاملات تُخزن محلياً على جهازك.</li>
+        <li><strong>معرف الجهاز:</strong> قد نستخدم معرفاً فريداً للجهاز (Device ID) لغرض توثيق ترخيص النسخة الكاملة ومنع إساءة استخدام الأكواد.</li>
       </ul>
     </section>
 
     <section>
-      <h2>4. البيانات المالية والعمليات</h2>
-      <p>جميع سجلات الحسابات، المبالغ، والأسماء التي تدخلها تُخزن <strong>محلياً</strong> على جهازك. نحن لا نملك وصولاً إلى هذه البيانات إلا إذا اخترت رفعها يدوياً كنسخة احتياطية مشفرة على حسابك في جوجل درايف.</p>
+      <h2>أمن البيانات</h2>
+      <p>تعتمد البيانات الأساسية على التخزين المحلي. وفي حال استخدام النسخ الاحتياطي السحابي، فإن أمن الملف يعتمد على مستوى حماية حساب جوجل الخاص بك.</p>
     </section>
 
     <section>
-      <h2>5. أمن البيانات وحقوق المستخدم</h2>
-      <ul>
-        <li>يمكنك حذف جميع بياناتك من داخل التطبيق أو مسح النسخ الاحتياطية من حساب جوجل درايف الخاص بك في أي وقت.</li>
-        <li>نحن نلتزم بسياسات "بيانات المستخدم المحدودة" الخاصة بجوجل (Google Limited Use Requirements).</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>6. الاتصال بنا</h2>
+      <h2>الاتصال والدعم</h2>
       <div class="contact">
-        <p>إذا كان لديك أي استفسار حول كيفية استخدامنا لبيانات جوجل أو طلب حذف بياناتك، تواصل معنا:</p>
-        <p>المطور: <strong>عبدالله</strong></p>
-        <p>البريد الإلكتروني: <a class="mail" href="mailto:abdoh775us@gmail.com">abdoh775us@gmail.com</a></p>
+        <p>لأي استفسارات تتعلق بالخصوصية أو طلب حذف البيانات، يرجى التواصل مع المطور (عبدالله) عبر:</p>
+        <p><a class="mail" href="mailto:abdoh775us@gmail.com">abdoh775us@gmail.com</a></p>
       </div>
     </section>
 
     <div class="small">
-      <p>باستخدامك لتطبيق إنجاز، فإنك توافق على سياسة الخصوصية هذه وعلى شروط استخدام خدمات جوجل المرتبطة بالتطبيق.</p>
+      <p>ملاحظة: استخدامك للتطبيق يعني موافقتك على هذه السياسة وعلى شروط خدمات جوجل المرتبطة بالنسخ الاحتياطي.</p>
     </div>
   </div>
 </body>
